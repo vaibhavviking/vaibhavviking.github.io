@@ -17,34 +17,37 @@ nav{
   background: rgb(74,63,63);
 background: linear-gradient(90deg, rgba(74,63,63,1) 0%, rgba(102,0,33,1) 100%);
 height: fit-content;
-border-radius: 10px;
+overflow: hidden;
 }
 
 nav ul {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: start;
   list-style-type: none;
-  height: 80px;
+  height: 3rem;
   align-items:center;
+  padding-left: 0;
 }
 
 nav ul li :hover {
   cursor: pointer;
   background-color: orange;
   color: black;
-  border-radius: 10px;
 }
 
 .activenav {
   cursor: pointer;
   background-color: orange;
   color: black;
-  border-radius: 10px;
+}
+
+nav ul li{
+  margin: 0 5%;
 }
 
 nav ul li a {
-  padding: 30px;
+  padding: 100% 10%;
   text-decoration: none;
   color : white;
   font-weight: bold;
@@ -77,7 +80,7 @@ nav ul li a {
 
 .Home{
   text-align: center;
- 
+  margin-top: 5%;
 }
 
 .typingeffect{
