@@ -11,14 +11,14 @@ export default function Skills() {
                 <Skillutil topic='CSS' skill='70' />
                 <Skillutil topic='SQL' skill='70' />
                 <Skillutil topic='React' skill='50' />
-                <Skillutil topic='React Native' skill='30' />
+                <Skillutil topic='React Native' skill='50' />
                 <Skillutil topic='MongoDB' skill='70' />
                 <Skillutil topic='Firebase' skill='60' />
                 <Skillutil topic='Python' skill='50' />
                 <Skillutil topic='C++' skill='50' />
                 <Skillutil topic='Bootstrap' skill='80' />
                 <Skillutil topic='jQuery' skill='60' />
-                <Skillutil topic='Data Structures' skill='50' />
+                <Skillutil topic='Data Structures' skill='70' />
             </div>
         </div>
     )

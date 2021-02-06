@@ -5,14 +5,10 @@ export default function College() {
     return (
         <div className="college">
             <div className="card" >
-                <div className="cimg">
-                    <img src={img} />
-                </div>
                 <div className="cbody" >
-                    <p>
-                        Indian Institute of Technology, Indore<br></br>
-                        BTech in Computer Science and Engineering
-                    </p>
+                    <h2>Indian Institute of Technology, Indore</h2>
+                    <p>BTech, Computer Science and Engineering</p>
+                    <p>2019 - present</p>
                 </div>
             </div>
         </div >
