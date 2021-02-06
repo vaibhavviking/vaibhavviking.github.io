@@ -13,10 +13,14 @@ export default function Projects() {
                 console.log(i);
                 this.classList.toggle("active");
                 var panel = this.nextElementSibling;
-                if (panel.style.height) {
+                if (panel.style.height == '0px') {
                     panel.style.height = null;
+                }
+                if (panel.style.height) {
+                    panel.style.height = '0px';
                 } else {
-                    panel.style.height = 'fit-content';
+                    panel.style.height = '-moz-fit-content';
+                    panel.style.height = '-webkit-fit-content';
                 }
             });
         }
