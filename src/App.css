@@ -62,12 +62,14 @@ nav ul li a {
 
 
 .pfp{
-  width: 20%;
+  max-width: 50%;
+    min-width: fit-content;
+    margin: auto;
   margin: auto;
 }
 
 .pfp img {
-  width: 80%;
+  max-width: 250px;
 }
 
 .Home, .About, .skills, .projects {

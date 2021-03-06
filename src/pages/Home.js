@@ -1,5 +1,5 @@
 import React from 'react'
-import img from '../assets/pic.jpeg'
+import img from '../assets/pic.jpg'
 import ReactTypingEffect from 'react-typing-effect';
 import Social from '../components/Social';
 
