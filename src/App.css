@@ -25,21 +25,26 @@ nav ul {
   flex-direction: row;
   justify-content: start;
   list-style-type: none;
-  height: 3rem;
+  min-height: 3rem;
   align-items:center;
   padding-left: 0;
 }
 
 nav ul li :hover {
   cursor: pointer;
-  background-color: orange;
-  color: black;
+  color: grey;
 }
 
 .activenav {
   cursor: pointer;
-  background-color: orange;
-  color: black;
+  /* background-color: orange;
+  color: black; */
+  color:orange;
+}
+
+nav ul{
+  width: 27rem;
+  margin: auto;
 }
 
 nav ul li{
@@ -47,7 +52,7 @@ nav ul li{
 }
 
 nav ul li a {
-  padding: 100% 50%;
+  /* padding: 100% 50%; */
   text-decoration: none;
   color : white;
   font-weight: bold;
