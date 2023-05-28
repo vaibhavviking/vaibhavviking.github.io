@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import img1 from '../assets/mern.png'
 import img2 from '../assets/hcj.png'
-import img3 from '../assets/rn.png'
+import sql from '../assets/sql.png'
 
 export default function Projects() {
     useEffect(() => {
@@ -26,8 +26,8 @@ export default function Projects() {
         }
     }, [])
     return (
-        <div className="projects">
-            <h1>My Projects</h1>
+        <div  className="projects">
+            <h1 style={{margin:"4rem"}}>My Projects</h1>
             <div className="projectacc" >
                 <div className="punit" >
                     <button class="accordion">Hostel Attendance System</button>
@@ -63,13 +63,23 @@ export default function Projects() {
                     </div>
                 </div>
                 <div className="punit" >
-                    <button class="accordion">Youtube Video Stats</button>
+                    <button class="accordion">My Movies</button>
                     <div class="panel">
                         <div className="pimg">
-                            <img src={img3} />
+                            <img src={img2} />
                         </div>
-                        <p>An android that displays the stats of a video (views, likes, etc) upon entering the video's URL. This app was made using React Native. This app is still under development and is, therefore, not hosted. </p>
-                        <p>The github repo: <a href="https://github.com/vaibhavviking/Youtube-video-stats" >here</a></p>
+                        <p>Since I am a big movie lover, I wondered how about I created a mini imdb-like movie website wherein someone could search, rate, review movies. Created using TMDB movie database, one can do all that here. </p>
+                        <p>The github repo: <a href="https://github.com/vaibhavviking/My-movies" >here</a></p>
+                    </div>
+                </div>
+                <div className="punit" >
+                    <button class="accordion">Library Management System</button>
+                    <div class="panel">
+                        <div className="pimg">
+                            <img src={sql} />
+                        </div>
+                        <p>A library is a really complex management scenario wherin consistency of the information is very important. My backend and database skills were tested while making this project. A user could search, hold, loan a book, make friends, creating reading lists and much more.  </p>
+                        <p>The github repo: <a href="https://github.com/vaibhavviking/library-app" >here</a></p>
                     </div>
                 </div>
             </div>

@@ -30,7 +30,7 @@ nav ul {
   padding-left: 0;
 }
 
-nav ul li :hover {
+nav ul li a :hover {
   cursor: pointer;
   color: grey;
 }
@@ -60,11 +60,16 @@ nav ul li a {
 }
 
 @media only screen and (max-width: 480px) {
-  nav ul li a {
-    padding: 100% 10%;
+  nav ul {
+    width: fit-content;
   }
 }
 
+@media only screen and (max-width: 576px) {
+  .skills h3{
+    display: none;
+  }
+}
 
 .pfp{
   max-width: 50%;
@@ -139,6 +144,10 @@ nav ul li a {
   box-shadow: 1px 1px 10px 2px;
 }
 
+.skills img:hover{
+  filter: drop-shadow(2px 2px 2px gray);
+}
+
 .college{
   margin-top: 5%;
 }
@@ -157,13 +166,13 @@ nav ul li a {
   border: 2px solid black;
 }
 
-.skills {
+/* .skills {
   overflow-y: scroll;
   overflow-x: hidden;
   height: 70vh;
   margin: 4%;
   border-radius: 10px;
-}
+} */
 
 .accordion {
   background-color: #eee;
@@ -213,6 +222,10 @@ nav ul li a {
   margin: 3% 0%;
 }
 
+.punit button{
+  border-radius:10px;
+}
+
 .pimg{
   width: 50%;
   margin: 4% auto;
@@ -238,4 +251,14 @@ nav ul li a {
 
 .About{
   padding: 4%
+}
+
+.skills img{
+  width: 70%;
+  margin: 5%;
+  margin-top:25%;
+}
+
+.skills h3{
+  margin-top:2rem;
 }

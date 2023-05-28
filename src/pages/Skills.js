@@ -1,24 +1,59 @@
 import React from 'react'
 import Skillutil from '../components/Skillutil'
+import img from '../assets/pic.jpg'
+
+
 
 export default function Skills() {
+    function requirefunc(name){
+        return process.env.PUBLIC_URL+'/icons/'+name+'.png'
+    }
     return (
-        <div>
-            <h1>My Skills</h1>
-            <div className="skills" >
-                <Skillutil topic='JavaScript' skill='60' />
-                <Skillutil topic='HTML' skill='80' />
-                <Skillutil topic='CSS' skill='70' />
-                <Skillutil topic='SQL' skill='70' />
-                <Skillutil topic='React' skill='50' />
-                <Skillutil topic='React Native' skill='50' />
-                <Skillutil topic='MongoDB' skill='70' />
-                <Skillutil topic='Firebase' skill='60' />
-                <Skillutil topic='Python' skill='50' />
-                <Skillutil topic='C++' skill='50' />
-                <Skillutil topic='Bootstrap' skill='80' />
-                <Skillutil topic='jQuery' skill='60' />
-                <Skillutil topic='Data Structures' skill='70' />
+        <div class="skills">
+            <div style={{marginTop:"4rem"}} class="container text-center">
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <h3>Frontend</h3>
+                        <div class="container text-center">
+                            <div class="row">
+                                <div class="col-12 col-xs-12 col-sm-4"><img src={requirefunc('html')} /></div>
+                                <div class="col-12 col-xs-12 col-sm-4"><img src={requirefunc('css')} /></div>
+                                <div class="col-12 col-xs-12 col-sm-4"><img src={requirefunc('js')} /></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 col-xs-12 col-sm-4"><img src={requirefunc('reactjs')} /></div>
+                                <div class="col-12 col-xs-12 col-sm-4"><img src={requirefunc('jquery')} /></div>
+                                <div class="col-12 col-xs-12 col-sm-4"><img src={requirefunc('bootstrap')} /></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <h3>Backend</h3>
+                        <div class="container text-center">
+                            <div class="row">
+                                <div class="col-12 col-xs-12 col-sm-4"><img src={requirefunc('c++')} /></div>
+                                <div class="col-12 col-xs-12 col-sm-4"><img src={requirefunc('python')} /></div>
+                                <div class="col-12 col-xs-12 col-sm-4"><img src={requirefunc('java')} /></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 col-xs-12 col-sm-4"><img src={requirefunc('mongo')} /></div>
+                                <div class="col-12 col-xs-12 col-sm-4"><img src={requirefunc('nodejs')} /></div>
+                                <div class="col-12 col-xs-12 col-sm-4"><img src={requirefunc('sql')} /></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <h3>Miscellaneous</h3>
+                        <div class="row">
+                                <div class="col-12 col-xs-12 col-sm-3"><img src={requirefunc('tensorflow')} /></div>
+                                <div class  ="col-12 col-xs-12 col-sm-3"><img src={requirefunc('keras')} /></div>
+                                <div class="col-12 col-xs-12 col-sm-3"><img src={requirefunc('git')} /></div>
+                                <div class="col-12 col-xs-12 col-sm-3"><img src={requirefunc('firebase')} /></div>
+                            </div>
+                    </div>
+                </div>
             </div>
         </div>
     )

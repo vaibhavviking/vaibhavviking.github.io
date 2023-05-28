@@ -1,6 +1,6 @@
 import './App.css';
 import Navbar from './components/Navbar';
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { HashRouter as Router, Switch, Route } from "react-router-dom";
 import Home from './pages/Home';
 import About from './pages/About';
 import Skills from './pages/Skills';
@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="App">
 
-      <Router>
+      <Router baseline="/">
 
         <Navbar />
         <Switch>
