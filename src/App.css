@@ -262,3 +262,29 @@ nav ul li a {
 .skills h3{
   margin-top:2rem;
 }
+
+.music{
+  width: 3rem;
+  height: 3rem;
+  position: fixed;
+  right: 0;
+  bottom: 50%;
+  background-color: brown;
+  border-radius: 7px 0 0 7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.music img{
+  width:2rem;
+}
+
+.music img:hover{
+  transform: scale(1.2,1.2);
+}
+
+.music img:select{
+  transform: scale(1.2,1.2);
+}
+

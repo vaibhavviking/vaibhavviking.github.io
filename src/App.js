@@ -5,7 +5,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Skills from './pages/Skills';
 import Projects from './pages/Projects';
-
+import Music from './components/Music';
 
 function App() {
   return (
@@ -29,7 +29,7 @@ function App() {
             <Projects />
           </Route>
         </Switch>
-
+        <Music />
       </Router>
     </div>
   );
