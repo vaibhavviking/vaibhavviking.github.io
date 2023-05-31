@@ -3,7 +3,7 @@ import College from '../components/College'
 
 export default function About() {
     return (
-        <div className="About">
+        <div className="content About">
             <h3>Hello There!</h3>
             <h1>I'm Vaibhav Chandra</h1>
             <h3>Full Stack Developer | Casual Deep Learning Enthusiast</h3>

@@ -5,14 +5,14 @@ import Social from '../components/Social';
 
 export default function Home() {
     return (
-        <div className="Home">
-            <div className='pfp' >
-                <img src={img} />
-                <h1>Vaibhav Chandra</h1>
+        <div className="tw-text-center tw-mt-[5%] content Home tw-pb-[5%]">
+            <div className='pfp tw-max-w-fit tw-m-auto tw-mb-2' >
+                <img  class="tw-max-w-sm tw-mb-2" src={img} />
+                <h1 class="tw-w-fit tw-m-auto tw-font-bold text-2xl">Vaibhav Chandra</h1>
             </div>
             <div>
                 <div className="desc">
-                    <ReactTypingEffect className="typingeffect" text={['I am Vaibhav Chandra. I am a full stack web development enthusiast.']} speed={50} eraseDelay={500} />
+                    <ReactTypingEffect className="tw-font-bold typingeffect" text={['I am Vaibhav Chandra. I am a full stack web development enthusiast.']} speed={50} eraseDelay={500} />
                     <p>Hello. Welcome to my portfolio page, made with love and hardwork. This will give you an insight into me and my technical expertise. ReactJS has been used to make this page.</p>
                     <Social />
                 </div>

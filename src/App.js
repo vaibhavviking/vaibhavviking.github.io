@@ -9,7 +9,9 @@ import Music from './components/Music';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App 
+    tw-text-center tw-w-[100%] tw-min-h-[100vh] tw-bg-city-light tw-bg-center tw-bg-cover tw-bg-no-repeat
+    ">
 
       <Router baseline="/">
 

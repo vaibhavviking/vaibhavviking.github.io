@@ -26,7 +26,7 @@ export default function Projects() {
         }
     }, [])
     return (
-        <div  className="projects">
+        <div  className="content projects">
             <h1 style={{margin:"4rem"}}>My Projects</h1>
             <div className="projectacc" >
                 <div className="punit" >
