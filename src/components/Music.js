@@ -18,14 +18,18 @@ export default function Music() {
     }
 
     function toggle(){
-        if(typeof(saved)!='undefined'){
-            if(videoState){
-                saved.target.pauseVideo();
-                updateVideoState(0);
-            }else{
-                saved.target.playVideo();
-                updateVideoState(1);
+        try{
+            if(typeof(saved)!='undefined'){
+                if(videoState){
+                    saved.target.pauseVideo();
+                    updateVideoState(0);
+                }else{
+                    saved.target.playVideo();
+                    updateVideoState(1);
+                }
             }
+        }catch(e){
+            console.log('exception caught');
         }
     }
     let play = process.env.PUBLIC_URL+'/icons/play.png'

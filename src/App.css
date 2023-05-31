@@ -116,7 +116,7 @@ nav ul li a {
 }
 
 .social i:hover{
-  color: #ffffff;
+  color: #73aae6;
 }
 
 .cimg img {
@@ -288,3 +288,26 @@ nav ul li a {
   transform: scale(1.2,1.2);
 }
 
+
+.extrainfo input,textarea{
+  max-width: 80%;
+  margin: 2%;
+  border-radius: 5px;
+}
+
+.extrainfobox{
+  height: 10rem;
+  margin-top: 4rem;
+}
+
+#resumebox{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} 
+
+@media only screen and (max-width: 768px) {
+    #sendmailbox{
+        height: 15rem;
+    }
+}
