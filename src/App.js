@@ -1,6 +1,6 @@
 import './App.css';
 import Navbar from './components/Navbar';
-import { HashRouter as Router, Switch, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import Home from './pages/Home';
 import About from './pages/About';
 import Skills from './pages/Skills';
@@ -14,21 +14,20 @@ function App() {
       <Router baseline="/">
 
         <Navbar />
-        <Switch>
+        <Routes>
 
-          <Route exact path='/' >
-            <Home />
+          <Route path='/' element={<Home />}>
           </Route>
-          <Route path='/about' >
-            <About />
+          <Route path='/about' element={<About />}>
+
           </Route>
-          <Route path='/skills' >
-            <Skills />
+          <Route path='/skills' element={<Skills />}>
+
           </Route>
-          <Route path='/projects' >
-            <Projects />
+          <Route path='/projects' element={<Projects />}>
+
           </Route>
-        </Switch>
+        </Routes>
         <Music />
       </Router>
     </div>
