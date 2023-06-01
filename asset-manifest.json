@@ -1,26 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.9cd71c78.chunk.css",
-    "main.js": "/static/js/main.8d75a54e.chunk.js",
-    "main.js.map": "/static/js/main.8d75a54e.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.2fd7dc15.js",
-    "runtime-main.js.map": "/static/js/runtime-main.2fd7dc15.js.map",
-    "static/js/2.dfed327b.chunk.js": "/static/js/2.dfed327b.chunk.js",
-    "static/js/2.dfed327b.chunk.js.map": "/static/js/2.dfed327b.chunk.js.map",
+    "main.css": "/static/css/main.94b5b474.css",
+    "main.js": "/static/js/main.6cac3996.js",
+    "static/media/pic.jpg": "/static/media/pic.c0281b91811bb63ae47a.jpg",
+    "static/media/logo.png": "/static/media/logo.1fd72daef892a230bb57.png",
+    "static/media/bg.jpg": "/static/media/bg.e9456f6a24761dd8908a.jpg",
+    "static/media/mern.png": "/static/media/mern.4ff782b550606fb74259.png",
+    "static/media/hcj.png": "/static/media/hcj.0371f2105afa2814a388.png",
+    "static/media/sql.png": "/static/media/sql.d00e1536ec7408f667a0.png",
     "index.html": "/index.html",
-    "static/css/main.9cd71c78.chunk.css.map": "/static/css/main.9cd71c78.chunk.css.map",
-    "static/js/2.dfed327b.chunk.js.LICENSE.txt": "/static/js/2.dfed327b.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/static/media/bg.e9456f6a.jpg",
-    "static/media/hcj.0371f210.png": "/static/media/hcj.0371f210.png",
-    "static/media/logo.1fd72dae.png": "/static/media/logo.1fd72dae.png",
-    "static/media/mern.4ff782b5.png": "/static/media/mern.4ff782b5.png",
-    "static/media/pic.c0281b91.jpg": "/static/media/pic.c0281b91.jpg",
-    "static/media/sql.d00e1536.png": "/static/media/sql.d00e1536.png"
+    "main.94b5b474.css.map": "/static/css/main.94b5b474.css.map",
+    "main.6cac3996.js.map": "/static/js/main.6cac3996.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.2fd7dc15.js",
-    "static/js/2.dfed327b.chunk.js",
-    "static/css/main.9cd71c78.chunk.css",
-    "static/js/main.8d75a54e.chunk.js"
+    "static/css/main.94b5b474.css",
+    "static/js/main.6cac3996.js"
   ]
 }
