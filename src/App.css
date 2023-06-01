@@ -14,13 +14,18 @@
 
 } */
 
-.sticky {
+/* .sticky {
   @apply tw-fixed tw-top-0 tw-w-[100%]
 }
 
+
 .sticky + .content{
-  @apply tw-pt-[60px]
+  @apply tw-pt-[10%]
 }
+.sticky + .content + .Home{
+  @apply tw-pt-[2%]
+} */
+
 
 
 /* body{
@@ -156,27 +161,14 @@ overflow: hidden;
   box-shadow: 1px 1px 10px 2px;
 } */
 
-.skills img:hover{
-  filter: drop-shadow(2px 2px 2px gray);
+.skills img{
+  @apply hover:tw-drop-shadow-[2px_2px_2px_gray]
+  /* filter: drop-shadow(2px 2px 2px gray); */
 }
 
-.college{
+/* .college{
   margin-top: 5%;
-}
-
-.skillutils{
-  display: flex;
-  flex-direction: row;
-  margin: 2%;
-  justify-content: space-between;
-  font-size: x-large;
-}
-
-.prog{
-  margin-left: 1%;
-  width: 50%;
-  border: 2px solid black;
-}
+} */
 
 /* .skills {
   overflow-y: scroll;
@@ -187,7 +179,8 @@ overflow: hidden;
 } */
 
 .accordion {
-  background-color: #eee;
+  @apply tw-bg-[#eee] tw-text-[#444] tw-cursor-pointer tw-p-[18px] tw-w-[100%] tw-border-none tw-text-left tw-outline-none tw-text-xl
+  /* background-color: #eee;
   color: #444;
   cursor: pointer;
   padding: 18px;
@@ -196,86 +189,83 @@ overflow: hidden;
   text-align: left;
   outline: none;
   font-size: 15px;
-  transition: 0.4s;
+  transition: 0.4s; */
 }
 
 .projects .active, .accordion:hover {
-  background-color: #ccc;
+  @apply tw-bg-[#ccc]
+  /* background-color: #ccc; */
 }
 
-.accordion:after {
+/* .accordion:after {
   content: '\002B';
   color: #777;
   font-weight: bold;
   float: right;
   margin-left: 5px;
-}
+} */
 
 .projects .active:after {
   content: "\2212";
 }
 
 .panel {
-  padding: 0 18px;
-  background-color: white;
+  /*padding: 0 18px;
+   background-color: white;
   height: 0;
   overflow: hidden;
-  transition: height 0.2s ease-out;
+  transition: height 0.2s ease-out; */
 }
 
-.projectacc{
+/* .projectacc{
   width: 80%;
   margin: auto;
   text-align: left;
 
-}
+} */
 
-.punit{
+/* .punit{
   margin: 3% 0%;
-}
+} */
 
-.punit button{
+/* .punit button{
   border-radius:10px;
-}
+} */
 
-.pimg{
+/* .pimg{
   width: 50%;
   margin: 4% auto;
-}
+} */
 
-.pimg img{
+/* .pimg img{
   width: 100%;
-}
+} */
 
-.prog, .exp {
-  border-radius: 15px;
-}
-
-.About .aboutdesc {
+/* .About .aboutdesc {
   width: 60%;
   margin: auto;
-}
+} */
 
-.Home .desc{
+/* .Home .desc{
   width: 58%;
   margin: auto;
-}
+} */
 
-.About{
+/* .About{
   padding: 4%
-}
+} */
 
-.skills img{
+/* .skills img{
   width: 70%;
   margin: 5%;
   margin-top:25%;
-}
+} */
 
-.skills h3{
+/* .skills h3{
   margin-top:2rem;
-}
+} */
 
-.music{
+/* .music{
   width: 3rem;
   height: 3rem;
   position: fixed;
@@ -286,40 +276,40 @@ overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
+} */
+/* 
 .music img{
   width:2rem;
-}
+} */
 
-.music img:hover{
+/* .music img:hover{
   transform: scale(1.2,1.2);
 }
 
 .music img:select{
   transform: scale(1.2,1.2);
-}
+} */
 
 
-.extrainfo input,textarea{
+/* .extrainfo input,textarea{
   max-width: 80%;
   margin: 2%;
   border-radius: 5px;
-}
+} */
 
-.extrainfobox{
+/* .extrainfobox{
   height: 10rem;
   margin-top: 4rem;
-}
+} */
 
-#resumebox{
+/* #resumebox{
   display: flex;
   justify-content: center;
   align-items: center;
-} 
-
+}  */
+/* 
 @media only screen and (max-width: 768px) {
     #sendmailbox{
         height: 15rem;
     }
-}
+} */

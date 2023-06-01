@@ -45,7 +45,7 @@ export default function Navbar() {
         console.log(id);
     }
     return (
-        <nav class="tw-bg-gradient-to-r tw-from-[rgba(74,63,63,1)] tw-to-[rgba(102,0,33,1)] tw-h-fit tw-overflow-hidden navbar navbar-expand-md navbar-light bg-light">
+        <nav class="tw-bg-gradient-to-r tw-from-[rgba(74,63,63,1)] tw-to-[rgba(102,0,33,1)] tw-h-fit tw-overflow-hidden tw-fixed tw-top-0 tw-left-0 tw-right-0 tw-z-50 navbar navbar-expand-md navbar-light bg-light">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
