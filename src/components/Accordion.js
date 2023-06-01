@@ -4,8 +4,8 @@ export default function Accordion({ Name, Details }) {
 
     return (
         <div>
-            <button class="accordion">{Name}</button>
-            <div class="panel">
+            <button className="accordion">{Name}</button>
+            <div className="panel">
                 <p>{Details}</p>
             </div>
         </div>

@@ -34,7 +34,7 @@ export default function Projects() {
     }, [])
     return (
         <div  className="tw-pt-12 projects">
-            <h1 class="tw-text-[2rem] tw-my-[3rem]">My Projects</h1>
+            <h1 className="tw-text-[2rem] tw-my-[3rem]">My Projects</h1>
             <div className="projectacc tw-w-[80%] tw-m-auto tw-text-left" >
                 <Project title="Hostel Attendance System" img={img2} para="A web app designed to keep track of students currently residing inside the hostel with controlled access for admins to manage database. This app was made using HTML, CSS, Bootstrap, JavaScript and EJS. Firestore database was used." repo="https://github.com/vaibhavviking/IITISoC---Attendance-Tool" hostlink="" hostsite="" />
                 <Project title="Online Education Portal" img={img2} para="A web app designed to facilitate online education for students as well as teachers. Marking Attendance, obtaining study material and many other features are available. This app was made using HTML, CSS, Bootstrap, JavaScript, EJS. MySQL was used as database." repo="https://github.com/vaibhavviking/Online-Education-Portal" hostlink="" hostsite="" />
