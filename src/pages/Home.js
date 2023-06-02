@@ -20,7 +20,7 @@ export default function Home() {
     return (
         <div className="tw-text-center tw-mt-[5%] tw-pt-12 Home tw-pb-[5%]">
             <div className='pfp tw-max-w-fit tw-m-auto tw-mb-2' >
-                <img className="tw-max-w-sm tw-mb-2" src={img} />
+                <img className="tw-w-[20rem] tw-mb-2" src={img} />
                 <h1 className="tw-w-fit tw-m-auto tw-font-bold text-2xl">Vaibhav Chandra</h1>
             </div>
             <div>
